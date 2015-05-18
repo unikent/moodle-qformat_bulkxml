@@ -96,7 +96,7 @@ class qformat_bulkxml extends qformat_xml
 			return $data;
         } else {
             $this->error(get_string('cannotunzip', 'question'));
-            fulldelete($this->temp_dir);
+            fulldelete($this->tempdir);
         }
 
         return false;
@@ -113,7 +113,7 @@ class qformat_bulkxml extends qformat_xml
     protected function readquestions($lines) {
         $data = array();
         foreach ($lines as $line) {
-        	$data[] = parent::readquestions($line);
+        	$data = array_merge($data, parent::readquestions($line));
 	    }
         return $data;
     }
