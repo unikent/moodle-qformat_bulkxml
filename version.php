@@ -30,5 +30,5 @@ $plugin->requires  = 2015050500;
 $plugin->maturity  = MATURITY_STABLE;
 
 $plugin->dependencies = array(
-    'qformat_xml' => 2015051100
+    'qformat_xml' => 2014111000
 );
