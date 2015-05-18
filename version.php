@@ -26,7 +26,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'qformat_bulkxml';
 $plugin->version   = 2015051800;
-$plugin->requires  = 2015050500;
+$plugin->requires  = 2014111006;
 $plugin->maturity  = MATURITY_STABLE;
 
 $plugin->dependencies = array(
