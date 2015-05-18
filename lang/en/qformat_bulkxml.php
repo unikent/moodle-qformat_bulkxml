@@ -22,6 +22,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Moodle Bulk XML format (zip/tar/tgz)';
+$string['pluginname'] = 'Moodle Bulk XML format (zip)';
 $string['pluginname_help'] = 'This is a Moodle-specific format for importing and exporting questions.';
 $string['pluginname_link'] = 'qformat/bulkxml';
