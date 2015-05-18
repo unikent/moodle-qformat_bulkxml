@@ -28,3 +28,7 @@ $plugin->component = 'qformat_bulkxml';
 $plugin->version   = 2015051800;
 $plugin->requires  = 2015050500;
 $plugin->maturity  = MATURITY_STABLE;
+
+$plugin->dependencies = array(
+    'qformat_xml' => 2015051100
+);
